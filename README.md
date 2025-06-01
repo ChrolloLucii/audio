@@ -28,61 +28,61 @@ API покрыт автотестами в Postman (см. раздел "Авто
 
 ### Аутентификация и пользователи
 
-POST /auth/register — регистрация пользователя
-POST /auth/login — вход пользователя
-POST /auth/logout — выход пользователя
-GET /users/me — информация о текущем пользователе
-PUT /users/me — обновить данные профиля
-DELETE /users/me — удалить аккаунт
+*POST /auth/register — регистрация пользователя
+*POST /auth/login — вход пользователя
+*POST /auth/logout — выход пользователя
+*GET /users/me — информация о текущем пользователе
+*PUT /users/me — обновить данные профиля
+*DELETE /users/me — удалить аккаунт
 
 ---
 
 ### Аудиофайлы
 
-POST /audio/upload — загрузить аудиофайл
-GET /audio — получить список аудиофайлов пользователя
-GET /audio/:id — получить информацию о файле
-GET /audio/:id/stream — потоковое воспроизведение
-PUT /audio/:id — обновить метаданные файла
-DELETE /audio/:id — удалить файл
-POST /audio/:id/like — лайкнуть аудиофайл
-DELETE /audio/:id/like — убрать лайк
-POST /audio/:id/comment — добавить комментарий
-GET /audio/:id/comments — получить комментарии
+*POST /audio/upload — загрузить аудиофайл
+*GET /audio — получить список аудиофайлов пользователя
+*GET /audio/:id — получить информацию о файле
+*GET /audio/:id/stream — потоковое воспроизведение
+*PUT /audio/:id — обновить метаданные файла
+*DELETE /audio/:id — удалить файл
+*POST /audio/:id/like — лайкнуть аудиофайл
+*DELETE /audio/:id/like — убрать лайк
+*POST /audio/:id/comment — добавить комментарий
+*GET /audio/:id/comments — получить комментарии
 
 ---
 
 ### Плейлисты
 
-POST /playlists — создать плейлист
-GET /playlists — получить свои плейлисты
-GET /playlists/:id — детали плейлиста
-PUT /playlists/:id — обновить плейлист
-DELETE /playlists/:id — удалить плейлист
-POST /playlists/:id/add — добавить аудио в плейлист
-DELETE /playlists/:id/remove — убрать аудио из плейлиста
+*POST /playlists — создать плейлист
+*GET /playlists — получить свои плейлисты
+*GET /playlists/:id — детали плейлиста
+*PUT /playlists/:id — обновить плейлист
+*DELETE /playlists/:id — удалить плейлист
+*POST /playlists/:id/add — добавить аудио в плейлист
+*DELETE /playlists/:id/remove — убрать аудио из плейлиста
 
 ---
 
 ### История и рекомендации
 
-GET /history — история прослушивания
-DELETE /history — очистить историю
-GET /history/recommendations — рекомендации аудио
+*GET /history — история прослушивания
+*DELETE /history — очистить историю
+*GET /history/recommendations — рекомендации аудио
 
 ---
 
 ### Поиск
 
-GET /search/audio?q=текст — поиск аудиофайлов
-GET /search/users?q=текст — поиск пользователей
+*GET /search/audio?q=текст — поиск аудиофайлов
+*GET /search/users?q=текст — поиск пользователей
 
 ---
 
 ### Администрирование
 
-GET /admin/audio — список всех аудиофайлов (для модерации)
-DELETE /admin/audio/:id — удалить любой аудиофайл
+*GET /admin/audio — список всех аудиофайлов (для модерации)
+*DELETE /admin/audio/:id — удалить любой аудиофайл
 
 ---
 
