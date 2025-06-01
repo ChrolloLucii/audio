@@ -106,5 +106,6 @@ AudioTrauma.postman_collection
 1. Импортируйте коллекцию в Postman.
 2. Запустите Runner — все тесты выполнятся автоматически.
 3. Для каждого запроса реализованы проверки статусов и структуры ответа.
+![image](https://github.com/user-attachments/assets/0fe46062-f198-41db-b88e-ae7e95b48505)
 
 ---
